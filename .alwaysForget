@@ -1,0 +1,3 @@
+# kill a process using <port>
+sudo lsof -i:<port>
+sudo kill -9 <PID>
