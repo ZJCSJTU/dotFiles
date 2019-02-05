@@ -1,3 +1,9 @@
 # kill a process using <port>
 sudo lsof -i:<port>
 sudo kill -9 <PID>
+
+# git checkout file(s) from one branch to another
+# suppose I want to copy a file from another branch to current branch
+git checkout <other-branch> -- <file or path on git> 
+# checkout all files (dot means all in git)
+git checkout <other-branch> -- .
